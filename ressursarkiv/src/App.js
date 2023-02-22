@@ -1,8 +1,9 @@
+import Header from './components/Header';
 import './css/main.css';
 
 function App() {
   return (
-      <h1>Helle World</h1>
+    <Header  />
   );
 }
 
