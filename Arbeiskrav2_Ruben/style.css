@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+
+:root{
+    --white: #ffffff;
+    --lightblue: #25dfe6;
+    --lightgrey: #b7b7b7;
+    --darkgrey: #707070;
+    --grey: #f5f5f5;
+    --rootsize: 20px;
+    --maxwidth: 1200px;
+}
+
+body{
+
+    background-color: var(--white);
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--rootsize);
+    margin-top: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div.container{
+    width: 100%;
+    max-width: var(--maxwidth);
+    margin: 0 auto;
+    background-color: var(--white);
+    overflow: hidden;
+    position: relative;
+}
+
+header{
+    display: flex;
+    padding: 1rem;
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--lightgrey);
+    text-transform: uppercase;
+    color: var(--darkgrey);
+}
+
+nav{
+    width: 100%;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    background-color: var(--white);
+    color: var(--darkgrey);
+    display: flex;
+    justify-content: left;
+    border: var(--lightgrey);
+    border-width: thin;
+}
+nav button{
+    color: var(--darkgrey);
+    font-size: var(--rootsize);
+    background-color: var(--grey);
+    border: solid;
+    border-color: var(--lightgrey);
+    border-bottom: none;
+    border-width: thin;
+    text-decoration: none;
+    padding: 2rem 1rem;
+    padding-right: 5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+}
+
+nav button:hover{
+    color: var(--white);
+    font-size: var(--rootsize);
+    background-color: var(--lightblue);
+    border: none;
+    text-decoration: none;
+    padding: 2rem 1rem;
+    padding-right: 5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+}
+main{
+    padding: 0 1rem;
+    color: var(--darkgrey);
+    border-style: solid;
+    border-color: var(--lightgrey);
+    border-width: thin;
+    border-top: 10px solid var(--lightblue);
+    
+}
+main h2{
+    text-transform: uppercase;
+}
