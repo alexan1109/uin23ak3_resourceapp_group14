@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Main from './components/Main';
 import Navigation from './components/Navigation';
+import Resources from './components/Resources';
 import './css/sass/main.scss';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
     <Header />
     <Navigation />
-    <Main />
+    <Resources />
     </>
     )
   }
