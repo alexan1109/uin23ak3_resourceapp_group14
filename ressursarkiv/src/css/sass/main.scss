@@ -83,7 +83,11 @@ body {
     }
     
     ul {
+        display:flex;
         list-style: none;
+        gap:30px;
+        padding:0;
+
     }
     
     ul li::before {
@@ -117,4 +121,10 @@ body {
     .text {
         color: $color_grey;
         margin-left: 35px;
+    }
+
+    a{
+        text-decoration:none;
+        text-transform: uppercase;
+        font-size:$link-str;
     }
