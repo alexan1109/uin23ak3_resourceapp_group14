@@ -1,5 +1,4 @@
 export default function Title(){
-    return(
+    return
         <h2 className="title">Ressursarkiv</h2>
-    )
 }
