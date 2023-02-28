@@ -1,13 +1,9 @@
 
 
-export default function Navigation(){
+export default function Navigation({name}){
     return(
     <nav>
-        <button id="HTML">HTML</button>
-        <button id="CSS">CSS</button>
-        <button id="JavaScript">JavaScript</button>
-        <button id="React">React</button>
-        <button id="Sanity and headless CMS">Sanity</button>
+        <button title={name}>{name}</button>
     </nav>
     )
 }
