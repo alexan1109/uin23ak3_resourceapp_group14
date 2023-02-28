@@ -11,8 +11,9 @@ function App() {
   return (
     <>
     <Header title={"Resussarkiv"} />
-    {resources.map((resources, category) => 
+    {resources.map((resources) => 
     <Navigation name={resources.category}/> )}
+
     </>
     )
   }
