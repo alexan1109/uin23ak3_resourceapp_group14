@@ -1,7 +1,3 @@
 export default function Css() {
-    return(
-      <>
-      
-      </>  
-    )
+    return
 }
