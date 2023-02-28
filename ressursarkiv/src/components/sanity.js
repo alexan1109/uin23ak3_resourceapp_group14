@@ -1,5 +1,7 @@
-
 export default function Sanity(){
-    return
+    return(<>
+    <h4>hei</h4>
+    </>
+    )
         
 }
