@@ -13,7 +13,6 @@ function App() {
     <Header title={"Resussarkiv"} />
     {resources.map((resources, category) => 
     <Navigation name={resources.category}/> )}
-    <Resources  />
     </>
     )
   }
