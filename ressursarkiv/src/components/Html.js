@@ -1,4 +1,8 @@
+import Resources from "./Resources";
+
 export default function Html(){
-    return
+    return (
+        <Resources id="html"/>
+    )
     
 }

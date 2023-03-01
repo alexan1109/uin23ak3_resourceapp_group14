@@ -1,3 +1,7 @@
+import Resources from "./Resources";
+
 export default function React() {
-  return;
+  return(
+    <Resources id="react" />
+  )
 }

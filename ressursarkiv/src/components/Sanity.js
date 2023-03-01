@@ -1,4 +1,8 @@
+import Resources from "./Resources";
+
 export default function Sanity(){
-    return
+    return(
+        <Resources id="headless-cms" />
+    )
         
 }
