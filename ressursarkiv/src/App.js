@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import JavaScript from './components/JavaScript';
 import Main from './components/Main';
 import Navigation from './components/Navigation';
 import Resources from './components/Resources';
@@ -13,6 +14,7 @@ function App() {
     <Header title={"Resussarkiv"} />
     {resources.map((resources) => 
     <Navigation name={resources.category}/> )}
+    <JavaScript />
     </>
     )
   }

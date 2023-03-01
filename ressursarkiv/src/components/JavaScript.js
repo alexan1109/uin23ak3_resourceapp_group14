@@ -1,3 +1,7 @@
+import Resources from "./Resources";
+
 export default function JavaScript() {
-  return <></>;
+  return (
+    <Resources id="javascript" />
+  );
 }
