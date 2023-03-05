@@ -1,3 +1,5 @@
+import Resources from "./Resources";
+
 export default function Css() {
-    return
+  return <Resources id="css" />;
 }
