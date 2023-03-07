@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import Css from "./components/Css";
-import Error from "./components/Error";
 import Header from "./components/Header";
 import Html from "./components/Html";
 import JavaScript from "./components/JavaScript";
@@ -23,7 +22,6 @@ function App() {
         <Route path="/react" element={<React />} />
         <Route path="/headless-cms" element={<Sanity />} />
         <Route path="/css" element={<Css />} />
-        <Route path="*" element={<Error />} />
       </Routes>
     </>
   );
