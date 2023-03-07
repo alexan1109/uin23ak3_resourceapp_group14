@@ -6,8 +6,6 @@ import JavaScript from "./components/JavaScript";
 import Navigation from "./components/Navigation";
 import React from "./components/React";
 import Sanity from "./components/Sanity";
-import "./css/sass/main.scss";
-
 
 function App() {
   return (
