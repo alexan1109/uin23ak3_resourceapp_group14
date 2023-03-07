@@ -3,13 +3,11 @@ import Css from "./components/Css";
 import Header from "./components/Header";
 import Html from "./components/Html";
 import JavaScript from "./components/JavaScript";
-import Main from "./components/Main";
 import Navigation from "./components/Navigation";
 import React from "./components/React";
-import Resources from "./components/Resources";
 import Sanity from "./components/Sanity";
 import "./css/sass/main.scss";
-import { resources } from "./data/ressurser";
+
 
 function App() {
   return (
