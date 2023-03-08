@@ -5,11 +5,6 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <>
-      <Header title={"Resussarkiv"} />
-      <Navigation />
-      <Links/>
-    </>
   );
 }
 
