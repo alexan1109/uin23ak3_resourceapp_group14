@@ -1,3 +1,4 @@
+import Resources from "./Resources";
 import Title from "./Title";
 
 export default function Main(){
@@ -8,9 +9,7 @@ export default function Main(){
             <article id="htmlinfo">
                 <Title className="category_name" name="HTML"/>
                 <ul >
-                    <li className="category_list">
-                        
-                    </li>
+                    <Resources/>
                 </ul>
             </article>
         </main>

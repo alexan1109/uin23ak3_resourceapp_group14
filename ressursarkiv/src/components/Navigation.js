@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 export default function Navigation() {
     return (
         <>
         <nav>
-            <button id="HTML">HTML</button>
-            <button id="CSS">CSS</button>
-            <button id="JavaScript">JavaScript</button>
-            <button id="React">React</button>
-            <button id="Sanity and headless CMS">Sanity</button>
-         </nav>
+            <Link to="html">HTML</Link>
+            <Link to="css">CSS</Link>
+            <Link to="javascript">JavaScript</Link>
+            <Link to="react">React</Link>
+            <Link to="headless-cms">Sanity</Link>
+        </nav>
          </>
     )
 }
