@@ -1,13 +1,14 @@
+import Title from "./Title";
+
 export default function Main(){
     return (
         <>
-        <div class="container">
+        <div className="container">
         <main>
             <article id="htmlinfo">
-                <h2 class="category_name"></h2>
-                <p class="category_info"></p>
+                <Title className="category_name" name="HTML"/>
                 <ul >
-                    <li class="category_list">
+                    <li className="category_list">
                         
                     </li>
                 </ul>
