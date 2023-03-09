@@ -1,14 +1,12 @@
 import { resources } from "../data/ressurser";
 
-export default function Resources({ id }) {
+export default function Resources() {
   return (
     <ul>
       {resources.map((item, index) =>
-        item.category === id ? (
-          <li>
+          <li key={index}>
             <a href={item.url}>{item.title}</a>
           </li>
-        ) : null
       )}
     </ul>
   );
