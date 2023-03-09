@@ -8,7 +8,8 @@ export default function Main() {
         <main>
           <article id="htmlinfo">
             <Title className="category" />
-            <Resources />
+            <Resources id="headless-cms"/>
+          
           </article>
         </main>
       </div>
