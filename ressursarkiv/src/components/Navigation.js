@@ -4,11 +4,13 @@ export default function Navigation() {
     return (
         <>
         <nav>
-            <Link to="html">HTML</Link>
-            <Link to="css">CSS</Link>
-            <Link to="javascript">JavaScript</Link>
-            <Link to="react">React</Link>
-            <Link to="headless-cms">Sanity</Link>
+            <ul>
+            <li><Link to="html">HTML</Link></li>
+            <li><Link to="css">CSS</Link></li>
+            <li><Link to="javascript">JavaScript</Link></li>
+            <li><Link to="react">React</Link></li>
+            <li><Link to="headless-cms">Sanity</Link></li>
+            </ul>
         </nav>
          </>
     )

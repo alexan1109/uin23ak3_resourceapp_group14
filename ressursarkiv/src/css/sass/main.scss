@@ -49,24 +49,34 @@ body {
     display: flex;
     justify-content: left;
     border: $color_grey;
-    border-width: thin;
+    border-width: thin;    
+    ul{
+      display: flex;
+      margin: 0;
+      padding: 0;
+      li{
+        list-style-type: none;
 
-    a {
-      color: $color_grey;
-      font-size: $rootsize;
-      border: solid;
-      border-color: $color_grey;
-      border-bottom: none;
-      border-width: thin;
-      text-decoration: none;
-      padding: 2rem 1rem;
-      padding-right: 5rem;
-      margin-right: 1rem;
-      display: inline-block;
-      text-transform: uppercase;
-      text-align: center;
-      outline: none;
+         a {
+          color: $color_grey;
+          font-size: $rootsize;
+          border: solid;
+          border-color: $color_grey;
+          border-bottom: none;
+          border-width: thin;
+          text-decoration: none;
+          padding: 2rem 1rem;
+          padding-right: 5rem;
+          margin-right: 1rem;
+          display: inline-block;
+          text-transform: uppercase;
+          text-align: center;
+          outline: none;
+        }
+      }
     }
+    
+   
   }
 
   main {
