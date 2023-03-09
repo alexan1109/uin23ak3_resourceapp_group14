@@ -1,0 +1,120 @@
+$font: "sans-serif";
+$width: 100%;
+$color_grey: #696969;
+$color_white: white;
+$background_color: cyan;
+$color_black: black;
+$color_lightseagreen: lightseagreen;
+
+:root {
+    font-family: $font;
+}
+
+body {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom:  0;
+    padding-bottom:  0; 
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5rem 1rem;
+        justify-content: left;
+    }
+    
+    div.container {
+        width: $width;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    
+    #title {
+        width: $width;
+        color:  $color_grey;
+        text-transform: uppercase;
+        padding: 50px 100px 50px 20px;
+        border: 2px solid $color_grey;
+        margin: 0 0 50px 0;
+        margin-right: -115px;
+        font-weight: revert;
+    }
+    
+    
+    .category:first-child {
+        color: $color_grey;
+        background-color: $background_color;
+    }
+    
+    #listing-categories {
+        margin-left: 5px;
+    }
+    .category {
+        color:  $color_grey;
+        font-weight: 300;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 18%;
+        padding: 20px 30px 20px 30px;
+        margin: 40px 15px 0 -4px;
+        border: 2px solid $color_grey;
+      }
+    
+    
+    .category-title {
+        color: $color_grey;
+        text-transform: uppercase;
+        padding: 2rem 0 2rem 1.5rem;
+        margin-left: 1rem;
+    
+    
+    }
+    
+    ul li {
+        color: $color_black;
+        margin-left: 1rem;
+    }
+    
+    .list-item {
+        color: $color_lightseagreen;
+        font-size: 20px;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    ul li::before {
+        content: "\2022";
+        color: $color_grey;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+    
+    .main-content {
+        border-top:  10px solid $background_color!important;
+        border: 1px solid $color_grey;
+        width: 100%;
+        margin-top:  20px;
+        margin-left: 1px;
+        margin-right: -130px;
+        padding-right: 114px;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .titleArticle {
+        color: $color_grey;
+        margin-left: 35px;
+    }
+    
+    .text {
+        color: $color_grey;
+        margin-left: 35px;
+    }
